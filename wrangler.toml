@@ -1,4 +1,12 @@
-name = "hello-python"
+name = "menu_translation_worker"
 main = "src/entry.py"
 compatibility_flags = ["python_workers"]
 compatibility_date = "2024-03-29"
+
+[[kv_namespaces]]
+binding = "menu_translation_kv"
+id = "492e02adb9034eb28b3be8074ef62731"
+
+[observability]
+enabled = true
+head_sampling_rate = 1
